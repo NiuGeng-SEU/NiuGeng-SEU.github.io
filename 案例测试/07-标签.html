@@ -60,9 +60,42 @@
     </dl>
 
     <form action="demo.php" method="POST" name="name">
-        Name: <input type="text">
-        Password: <input type="password">
-
+        Name: <input type="text" name="username" value="Please input your name" maxlength="6">
+        Password: <input type="password" name="pwd">
+        <!-- radio 单选按钮可以实现多选一 单选框有一个名字才能实现多选一--><br/>
+        Gender: Male <input type="radio" name="Gender" value="Male"> Female <input type="radio" name="Gender" value="Female">
+        <!-- checkbox 多选按钮 --><br/>
+        <!-- 可以默认选中 -->
+        爱好：吃饭<input type="checkbox" name="Hobby" value="eat" checked="checked">睡觉<input type="checkbox" name="hobby" value="sleep">打豆豆<input type="checkbox" name="Hobby" value="Eat pee">
+        <!-- name value checked默认选中 maxlength 正整数 规定输入字符中的字符的最大长度 -->
+        <!-- submit 提交 -->
+        <br>
+        <!-- 点击了提交按钮，可以将表单元素里面的值 提交给服务器后台 -->
+        <input type="submit" value="Free to log in">
+        <!-- reset 重置按钮 -->
+        <input type="reset">
+        <!-- button 定义可点击按钮  -->
+        <input type="button" value=button>
+        <!-- file 上传文件 -->
+        <input type=file value=picuture>
+        <!-- label标签 标注标签 使用场景 点中label标签中的文本时，浏览器自动对到表单元素上。 -->
+        <br/>
+        <input type="radio" id="Male" name="Gender"> <label for="Male">Male</label>
+        <input type="radio" id="Female" name="Gender"> <label for="Female">Female</label>
+        <!-- select 下拉表单元素 -->
+        <br>
+        Where your from：
+        <select>
+            <option selected=selected>USA</option>
+            <option>CHN</option>
+            <option>JAP</option>
+            <option>Mars</option>
+        </select>
+        <!-- textarea 文本域标签 -->
+        <br>
+        Daily:
+        <br>
+        <textarea cols="50" rows="5">Daily!</textarea>
     </form>
 </body>
 </html>

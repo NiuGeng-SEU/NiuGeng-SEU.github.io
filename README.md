@@ -15,6 +15,7 @@ H5C3提高：学习HTML5新增标签、CSS3样式，有一定兼容性，与未�
 https://www.bilibili.com/video/BV14J4114768
 P22 目标文件夹和根文件夹 - 210109
 P46 input之type文本框和密码框 -210110
+P56 综合案例 - 210111
 
 ## 学习内容
 
@@ -163,3 +164,4 @@ dl里面只能由dtdd，经常一个dt对应多个dd 但是并没有限制
 表单元素
 <input type="">
 type属性值 
+radio单选
