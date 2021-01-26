@@ -24,6 +24,7 @@ P170 传统网页布局三种方式 -210119
 P222 为什么需要定位 -210120
 P252 精灵图的使用 -210124
 p274 HTML5 CSS3 提高导读
+P355 课程总结
 
 ## 学习内容
 
@@ -777,3 +778,74 @@ display: -webkit-box;
 4.CSS三角强化
 
 CSS初始化 照顾浏览器的兼容性，需要对CSS初始化。
+
+
+HTML5 新特性
+
+新增的语义化标签
+
+<header> <nav> <article> <section> <aside> <footer>
+
+新增的多媒体标签蛀牙包含两个：1. 音频<audio> 2. 视频：<video> 使用它们可以很方便的在页面中嵌入音频和视频，而不再去使用flash和其他浏览器插件。
+视频MP4、webM、Ogg三种，MP4支持最广泛。
+音频 MP3、Wav、Ogg,MP3支持最广泛。
+语法：<video src="文件地址" controls="controls"></video>
+语法：<audio src=""></audio>
+新增input标签 type=“search”
+email \url \date \time \month \week \number \tel \search \color
+新增表单属性
+required 内容不能为空
+placeholder 提示信息，存在默认值将不显示
+autofocus 自动聚焦属性，页面加载完成自动聚焦到指定表单
+autocomplete 显示填写过的内容
+multiple 可以多文件提交
+
+CSS3新特性
+新增的CSS３特性有兼容性问题，ｉｅ９＋才支持。
+移动端支持由于ＰＣ短
+不断改进中
+应用相对广泛
+现阶段主要学习：新增选择器和盒子模型以及其他特性
+CSS3新增选择器,1. 属性选择器,2. 结构伪类选择器 3. 伪元素选择器
+
+input[value] 有value属性的input
+
+类选择器和属性选择器 伪类选择器 权重都是10
+
+结构伪类选择器
+主要根据文档结构来选择器元素,常用于根据父级选择器里面的子元素
+选择符:
+E:frist-child: 匹配父元素中第一个子元素E
+E:last-child: 匹配父元素中最后一个E元素
+E:nth-child(n):匹配父元素中的第n个子元素E
+E:first-of-type:指定类型E的第一个
+E:last-of-type:指定类型E的最后一个
+E:nth-of-type(n):指定类型E的第n个
+
+伪元素选择器可以帮助我们利用CSS创建新标签元素，而不需要ＨＴＭＬ标签，从而简化ＨＴＭＬ结构。
+：：before 在元素内部的前面插入内容
+：：after 在元素内部的后面插入内容
+注意：
+before和after创建一个元素，但是属于行内元素，新创建的这个元素在文档树中找不到，我们称为伪元素。语法：element：：before{} before和after必须有content属性，before在父元素内容的前面插入内容，after在元素后面插入元素。伪元素选择器和标签选择器一样，权重为1.
+
+box-sizing: border-box 盒子大小为width
+CSS路径filter:
+filterCSS属性将模糊或颜色偏移等图形效果应用于元素．
+filter: 函数(); filter:blur(5px);
+CSS3 Calc函数
+此CSS函数让你在声明CSS属性值时执行一些计算．
+width:calc(100%-80px);
+
+CSS3过度变化效果
+在不适用Flash动画或JS的情况下,当元素从一种样式变化为另一种样式时为元素添加效果.
+过渡动画:从一个状态渐渐过渡到另一个状态
+可以让我们页面更好看,更动感十足,虽然低版本不支持,但是不会影响页面布局.
+我们现在经常和:hover一起搭配使用。
+transition：要过渡的属性 花费时间 运动曲线 何时开始；
+属性：宽度高度 背景颜色 内外边距都可以。如果想要所有的属性都变化，写一个all就可以。
+花费时间：单位是秒 s
+运动曲线：默认是ease（可以省略）
+何时开始：单位是s，可以设置延迟触发时间 默认是0s 可以省略。
+
+HTML5结构标签本身
+广义即 HTML5+CSS3+JavaScript
