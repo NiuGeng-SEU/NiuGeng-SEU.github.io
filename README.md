@@ -25,6 +25,7 @@ P222 为什么需要定位 -210120
 P252 精灵图的使用 -210124
 p274 HTML5 CSS3 提高导读
 P355 课程总结
+P373 速度曲线之step步长
 
 ## 学习内容
 
@@ -849,3 +850,43 @@ transition：要过渡的属性 花费时间 运动曲线 何时开始；
 
 HTML5结构标签本身
 广义即 HTML5+CSS3+JavaScript
+
+转换 2D转换 3D转换
+
+转换 transform 实现元素的位移、旋转和缩放。translate移动 rotate 旋转 scale 缩放
+
+
+transform: translate(x,y);
+transform: translateX();
+transform: translateY();
+不影响其它盒子的位置。
+
+3D-rotateu旋转
+transform：rotate(deg)
+角度为正时，顺时针，负时，为逆时针。
+默认旋转的中心点时元素的中心点
+
+transform-origin 设置转换中心点
+transform-origin：x y；
+
+缩放scale
+只要给元素添加了这个属性就能控制它放大还是缩小。
+transform:scale (x,y);
+
+多个同时 translate rotate scale
+
+动画的基本使用
+制作动画 使用动画
+1.用keyframes定义动画（类似定义类选择器）
+@keyframes 动画名称 {
+    0% {
+        width：100px；
+    }
+    100% {
+        width: 200px;
+    }
+}
+
+animation-name: 动画名称；
+animation-duration: 2s;
+动画中属性很多 常用
