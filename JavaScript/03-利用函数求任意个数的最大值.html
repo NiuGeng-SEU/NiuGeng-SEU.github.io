@@ -57,17 +57,24 @@
 */
 
         //leap year judgement
-        function leapY(year) {
-            if (year % 400 == 0 || year % 400 != 0 && year % 4 == 0) {
-                alert('This year is a leap year!');
-                return true;
-            } else {
-                alert("This year isn't a leap year.");
-                return false;
-            }
-        }
-        leapY(prompt("Please input the year:"));
 
+        // function leapY(year) {
+        //     if (year % 400 == 0 || year % 400 != 0 && year % 4 == 0) {
+        //         alert('This year is a leap year!');
+        //         return true;
+        //     } else {
+        //         alert("This year isn't a leap year.");
+        //         return false;
+        //     }
+        // }
+        // leapY(prompt("Please input the year:"));
+
+        function Star(uname, age, sex) {
+            this.name = uname;
+            this.age = age;
+            this.sex = sex;
+        }
+        var idh = new Star('Zhang', '18', 'Male');
     </script>
 </head>
 
