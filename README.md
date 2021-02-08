@@ -10,6 +10,8 @@
   - [函数](#函数)
   - [内置对象](#内置对象)
   - [Web APIs](#web-apis)
+    - [如何获取网页元素](#如何获取网页元素)
+    - [排他思想](#排他思想)
 
 ## 课程记录
 
@@ -20,6 +22,7 @@
 210205-函数的两种声明方式 -P133
 210206-倒计时 -P168
 210207-DOM借鉴 -P195
+210208-发布留言案例节点添加 -p234
 
 ## 编程语言
 
@@ -723,3 +726,170 @@ Web API 是浏览器提供的一套操作 浏览器功能和页面元素的API (
 DOM document object model 是处理可扩展标记语言的标准编程接口
 
 Dom中 一个页面就是一个文档 document 所有标签都是元素 element 网页中所有内容都是节点(标签\属性\文本\注释等),DOM中使用node表示
+
+### 如何获取网页元素
+
+DOM在实际开发中主要用来操作元素。方式：1. 根据ID获取 2. 根据标签名获取 3. 通过HTML5新增方法获取 4. 特殊元素获取
+getElementByid()方法获取ID元素对象
+可以返回匹配的特定的ID元素
+文档页面从上往下加载，所以先得有标签，所以我们的script写在标签的下面
+get获得elemet元素by通过 驼峰命名法
+参数 字符串
+document.getElementById("time");
+返回的是一个DOM的element**对象**，如果没有，则返回null
+返回值类型都是对象
+console.dir('') 打印对象
+
+根据标签名获取
+使用getElementsByTagName() 返回带有标签名的对象集合
+var lis = document.getElementsByTagName('li')
+返回的是 获取过来元素对象的集合 以伪数组的形式存储的
+console.log(lis[0]);
+得到的是对象的集合，所以我们想要操作里面的元素就需要遍历。
+得到的对象是动态的。
+如果页面中只有一个li 返回的还是伪数组
+如果页面中没有，返回的是未定义的伪数组
+伪数组形式不能作为父元素 父元素必须是单个对象（必须指明是哪一个元素对象），获取的时候不包括父元素自己。
+
+getElementsByClassName 根据类名获得某些元素的集合
+querySelector('选择器'); 根据指定选择器返回第一个元素对象 **类.box ID #nav 标签 li**且只能得到第一个
+
+querySelectorAll('选择器'); 根据指定选择器返回
+
+获取特定元素 body html
+获取body document.body;
+获取html document.documentElement;
+
+事件基础
+事件概述
+JS使得我们有能力创建动态页面，而事件是可以被JS侦测到的行为。
+简单理解：触发--响应机制。
+网页中每个元素都可以产生某些可以触发JS的事件，例如，我们呢可以在用户点击某一个按钮时产生一个事件，然后去执行某些操作。
+
+事件由三个部分组成 事件源 事件类型 事件处理程序 也成为事件三要素。
+事件源 事件被触发的对象 谁 按钮
+var btn = document.getElementById('btn');
+事件类型 如何触发 什么事件 比如 鼠标点击（onclick）还是鼠标经过 还是键盘按下
+事件处理程序 通过一个函数赋值的方式 完成
+btn.onclick = function(){
+  alert('qiuxiang');
+}
+
+执行事件步骤
+// 1. 获取事件源
+var div = document.querySelector('div');
+// 2. 绑定事件 注册事件
+// div.onclick 
+// 3. 添加事件处理程序
+div.onclick = function() {
+  console.log('I have been selected');
+}
+
+操作元素
+DOM可以改变网页内容、结构和样式。
+
+innerText 与 inerHTML区别
+innerText 不识别html标签 ie 非标准 去除换行和空格
+innerHTML 识别HTML标签 w3c标准 不去除换行和空格
+这两个属性是可读写的，可以获取元素里里面的内容。
+
+常用元素的属性操作
+//1. innerText innerHTML src href id alt title 
+zxy.onclick = function() {
+  img.src = 'images/zxy.jpg';
+}
+idh.onclick = function() {
+  img.src = 'image/ldh.jpg';
+}
+
+表单元素的属性操作
+利用DOM可以操作如下表单元素的属性 
+type value checked selected disabled 
+this指函数调用者  
+
+样式属性操作
+可以通过JS修改元素的大小、颜色、位置等信息
+//1. element.style 行内样式操作
+//2. element.calssName 类名样式操作
+注意：1. JS里面的样式采取驼峰命名法 2. JS修改style样式操作，产生的是行内样式，css权重比较高
+
+display:none; 隐藏二维码
+重点是HTML和CSS JS不难
+
+循环精灵图
+//1.首先精灵图要有规律 2. 核心：利用for循环，修改精灵图片的背景位置 bcg-p 
+让索引号乘44 就是每个li的背景y坐标 index就是我们的y坐标
+减少css写入次数。
+
+显示隐藏文本框内容
+表单两个事件 获得焦点 onfocus 失去焦点 onblur
+
+this.className = 'change';
+当前元素的类名改为了change
+//1. 如果样式修改比较多，可以采取操作类名方式更改元素样式。2. class应为是个保留字，因此使用className来操作类名属性 3. className会直接更改元素的类名，会覆盖原先的类名。
+
+操作元素是DOM核心内容
+操作元素 ：操作元素内容 innerText innnerHTML
+操作常见元素属性 src\href\title\alt等
+操作表单元素属性 type\value\disabled等
+操作元素样式属性 element.style className
+
+### 排他思想
+
+如果有同一组元素，我们想要某一个元素实现某种样式，需要用到循环的排他思想算法。
+//1. 所有元素全部清除样式 2. 给当前元素设置样式 
+
+//1. 获取按钮元素 2. 利用for循环写入事件 得到的是伪数组 使用数组绑定事件
+
+获取元素可嵌套
+var imgs =documnt.querySelector('.baidu').querySelectorAll('img'); 父类 子类
+
+鼠标事件 鼠标经过 onmouseover 鼠标立开 onmouseut
+
+element.属性值
+element.getAttribute('属性值')
+
+第一种方法获得内置属性值 即元素本身自带的属性
+第二种方法 主要获得自定义的属性
+
+element.属性值=
+element.setAttribute('属性','值')
+第二种主要针对自定义属性
+
+removeAttribute(属性) 移除属性
+
+H5自定义属性
+目的：是为了保存并使用数据。有些数据可以保存到页面中而不用保存在数据库中。
+
+自定义属性容易引起歧义，不容易判断是元素的内置属性还是自定义属性
+H5规定自定义属性data作为开头为属性名并且进行赋值。
+
+节点操作
+利用父子兄节点关系获取元素 逻辑性强 但是兼容性较差 这两种方式都可以获取元素节点，节点操作更加简单。
+节点概述
+一般节点至少拥有nodeType节点类型 nodeName 节点名称 nodeValue 节点值 这三个基本属性
+
+节点层次
+利用DOM树可以把节点划分为不同的层次结构，常用的是父子兄层次关系
+
+子节点
+ul.childNodes
+文本节点nodeType是3 元素结点为1 
+ul.children()
+
+firstElementChild()
+lastElementChild()
+返回最后一个子节点
+
+.nextSibling 下一个兄弟节点 包含元素节点或者文本节点
+.previousSibling 上一个兄弟节点
+
+.nextElementSibling 下一个兄弟元素节
+.previousElementSibling 
+
+创建节点和添加节点
+document.creatElement('tagName');
+添加节点
+node.appendChild(child)
+将一个节点添加到指定node是父级 child是子级
+

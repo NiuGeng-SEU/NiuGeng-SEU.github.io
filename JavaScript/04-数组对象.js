@@ -36,4 +36,4 @@ function numWord(str) {
 // Control panel
 //console.log(filterArr([1500, 1200, 2000, 2100, 1800], 2000));
 //console.log(deduArr(['c', 'a', 'z', 'a', 'x', 'c', 'b', 'c']));
-numWord('ascdsovososafaosodobo');
+//numWord('ascdsovososafaosodobo');
