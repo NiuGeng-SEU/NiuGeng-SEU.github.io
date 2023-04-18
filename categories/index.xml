@@ -6,37 +6,21 @@
         <description>Recent content in Categories on Geng Niu&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Wed, 09 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://niugens.com/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 18 Apr 2023 00:21:09 +0800</lastBuildDate><atom:link href="https://niugens.com/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Tech-Internet</title>
+        <link>https://niugens.com/categories/tech-internet/</link>
+        <pubDate>Tue, 18 Apr 2023 00:21:09 +0800</pubDate>
+        
+        <guid>https://niugens.com/categories/tech-internet/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>Test</title>
         <link>https://niugens.com/categories/test/</link>
-        <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>https://niugens.com/categories/test/</guid>
         <description>&lt;img src="https://niugens.com/categories/test/hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg" alt="Featured image of post Test" /&gt;</description>
-        </item>
-        <item>
-        <title>测试</title>
-        <link>https://niugens.com/categories/%E6%B5%8B%E8%AF%95/</link>
-        <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
-        
-        <guid>https://niugens.com/categories/%E6%B5%8B%E8%AF%95/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>syntax</title>
-        <link>https://niugens.com/categories/syntax/</link>
-        <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-        
-        <guid>https://niugens.com/categories/syntax/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>themes</title>
-        <link>https://niugens.com/categories/themes/</link>
-        <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-        
-        <guid>https://niugens.com/categories/themes/</guid>
-        <description></description>
         </item>
         
     </channel>
