@@ -6,13 +6,21 @@
         <description>Recent content in Categories on Geng Niu&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Thu, 08 Jun 2023 01:24:44 +0800</lastBuildDate><atom:link href="https://niugens.com/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 12 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://niugens.com/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Tech-Engineering</title>
+        <link>https://niugens.com/categories/tech-engineering/</link>
+        <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://niugens.com/categories/tech-engineering/</guid>
+        <description>&lt;img src="https://niugens.com/categories/tech-engineering/DSC_8076.jpeg" alt="Featured image of post Tech-Engineering" /&gt;</description>
+        </item>
+        <item>
         <title>Course Learning</title>
         <link>https://niugens.com/categories/courselearning/</link>
         <pubDate>Thu, 08 Jun 2023 01:24:44 +0800</pubDate>
         
         <guid>https://niugens.com/categories/courselearning/</guid>
-        <description>&lt;img src="https://niugens.com/categories/courselearning/book-stack-me-challenge-1.jpeg" alt="Featured image of post Course Learning" /&gt;</description>
+        <description>&lt;img src="https://niugens.com/categories/courselearning/CourseL1.jpeg" alt="Featured image of post Course Learning" /&gt;</description>
         </item>
         <item>
         <title>Tech-Internet</title>
@@ -28,15 +36,7 @@
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>https://niugens.com/categories/blog/</guid>
-        <description>&lt;img src="https://niugens.com/categories/blog/JMF96ETfn1kSViVnUou1Z0XIDwWcPpT5mrPc7-ytpAc.jpeg" alt="Featured image of post Blog" /&gt;</description>
-        </item>
-        <item>
-        <title>Tech-Engineering</title>
-        <link>https://niugens.com/categories/tech-engineering/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://niugens.com/categories/tech-engineering/</guid>
-        <description>&lt;img src="https://niugens.com/categories/tech-engineering/DSC_8076.jpeg" alt="Featured image of post Tech-Engineering" /&gt;</description>
+        <description>&lt;img src="https://niugens.com/categories/blog/blog1.jpeg" alt="Featured image of post Blog" /&gt;</description>
         </item>
         <item>
         <title>Uncategorized</title>
@@ -44,7 +44,7 @@
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>https://niugens.com/categories/test/</guid>
-        <description>&lt;img src="https://niugens.com/categories/test/hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg" alt="Featured image of post Uncategorized" /&gt;</description>
+        <description>&lt;img src="https://niugens.com/categories/test/test1.jpg" alt="Featured image of post Uncategorized" /&gt;</description>
         </item>
         
     </channel>
