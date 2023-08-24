@@ -6,15 +6,7 @@
         <description>Recent content in Categories on Geng Niu&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Sat, 12 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://niugens.com/categories/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Tech-Engineering</title>
-        <link>https://niugens.com/categories/tech-engineering/</link>
-        <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
-        
-        <guid>https://niugens.com/categories/tech-engineering/</guid>
-        <description>&lt;img src="https://niugens.com/categories/tech-engineering/DSC_8076.jpeg" alt="Featured image of post Tech-Engineering" /&gt;</description>
-        </item>
-        <item>
+        <lastBuildDate>Thu, 08 Jun 2023 01:24:44 +0800</lastBuildDate><atom:link href="https://niugens.com/categories/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Course Learning</title>
         <link>https://niugens.com/categories/courselearning/</link>
         <pubDate>Thu, 08 Jun 2023 01:24:44 +0800</pubDate>
@@ -29,6 +21,14 @@
         
         <guid>https://niugens.com/categories/tech-internet/</guid>
         <description>&lt;img src="https://niugens.com/categories/tech-internet/codecode.jpeg" alt="Featured image of post Tech-Internet" /&gt;</description>
+        </item>
+        <item>
+        <title>Tech-Engineering</title>
+        <link>https://niugens.com/categories/tech-engineering/</link>
+        <pubDate>Mon, 16 May 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://niugens.com/categories/tech-engineering/</guid>
+        <description>&lt;img src="https://niugens.com/categories/tech-engineering/DSC_8076.jpeg" alt="Featured image of post Tech-Engineering" /&gt;</description>
         </item>
         <item>
         <title>Blog</title>
