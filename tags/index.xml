@@ -6,7 +6,15 @@
         <description>Recent content in Tags on Geng Niu&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Thu, 21 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://niugens.com/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 06 Mar 2024 11:48:29 +0800</lastBuildDate><atom:link href="https://niugens.com/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>PaperPub</title>
+        <link>https://niugens.com/tags/paperpub/</link>
+        <pubDate>Wed, 06 Mar 2024 11:48:29 +0800</pubDate>
+        
+        <guid>https://niugens.com/tags/paperpub/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>Medical Examination</title>
         <link>https://niugens.com/tags/medical-examination/</link>
         <pubDate>Thu, 21 Dec 2023 00:00:00 +0000</pubDate>
@@ -39,7 +47,7 @@
         <description></description>
         </item>
         <item>
-        <title>X-ray</title>
+        <title>X-Ray</title>
         <link>https://niugens.com/tags/x-ray/</link>
         <pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
         
