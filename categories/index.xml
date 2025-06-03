@@ -15,14 +15,6 @@
         <description>&lt;img src="https://niugens.com/categories/tech-engineering/DSC_8076.jpeg" alt="Featured image of post Tech-Engineering" /&gt;</description>
         </item>
         <item>
-        <title>Tech-Internet</title>
-        <link>https://niugens.com/categories/tech-internet/</link>
-        <pubDate>Tue, 18 Apr 2023 00:21:09 +0800</pubDate>
-        
-        <guid>https://niugens.com/categories/tech-internet/</guid>
-        <description>&lt;img src="https://niugens.com/categories/tech-internet/codecode.jpeg" alt="Featured image of post Tech-Internet" /&gt;</description>
-        </item>
-        <item>
         <title>Blog</title>
         <link>https://niugens.com/categories/blog/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -37,6 +29,14 @@
         
         <guid>https://niugens.com/categories/courselearning/</guid>
         <description>&lt;img src="https://niugens.com/categories/courselearning/CourseL1.jpeg" alt="Featured image of post Course Learning" /&gt;</description>
+        </item>
+        <item>
+        <title>Tech-Internet</title>
+        <link>https://niugens.com/categories/tech-internet/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://niugens.com/categories/tech-internet/</guid>
+        <description>&lt;img src="https://niugens.com/categories/tech-internet/codecode.jpeg" alt="Featured image of post Tech-Internet" /&gt;</description>
         </item>
         <item>
         <title>Uncategorized</title>

@@ -5,40 +5,6 @@
         <link>https://niugens.com/categories/tech-internet/</link>
         <description>Recent content in Tech-Internet on Geng Niu&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en-us</language>
-        <lastBuildDate>Tue, 18 Apr 2023 00:21:09 +0800</lastBuildDate><atom:link href="https://niugens.com/categories/tech-internet/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>[WebBuild] Use Hugo to build a website</title>
-        <link>https://niugens.com/p/webbuild-use-hugo-to-build-a-website/</link>
-        <pubDate>Tue, 18 Apr 2023 00:21:09 +0800</pubDate>
-        
-        <guid>https://niugens.com/p/webbuild-use-hugo-to-build-a-website/</guid>
-        <description>&lt;p&gt;After a long time using &lt;strong&gt;Wordpress&lt;/strong&gt; as my website structure, I felt that it is a little heavy to write a post. The structure gives you too many choices and that&amp;rsquo;s all graphical operation that always let me distracted. What&amp;rsquo;s more, you have to maintain a full server keeping both the front end and the back end working. Therefore, I chose to use Hugo to rebuild my website, which can make static websites easily and let me focus on the content rather than form.&lt;/p&gt;
-&lt;p&gt;And this is the website built with &lt;a class=&#34;link&#34; href=&#34;https://github.com/gohugoio/hugo&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Hugo&lt;/a&gt;, I have changed some configures in line with my usage habits. Main settings are as follows:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Structure - Hugo + GitHub Page, it&amp;rsquo;s free, simple and needs little maintenance.&lt;/li&gt;
-&lt;li&gt;Theme choice - &lt;a class=&#34;link&#34; href=&#34;https://stack.jimmycai.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Hugo theme stack&lt;/a&gt;, the theme is simple and intuitive.&lt;/li&gt;
-&lt;li&gt;Custom domain - niugens.com, Github&amp;rsquo;s domain is hard to remember, so I use a simple one to redirect to GitHub page.&lt;/li&gt;
-&lt;li&gt;Search engine indexability - Using Google analyze ID to let this website more indexable.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Something else which is a little hard is not done right now, including:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Comment system.&lt;/li&gt;
-&lt;li&gt;Muti-level categories.&lt;/li&gt;
-&lt;li&gt;Life-plan calendar system.&lt;/li&gt;
-&lt;li&gt;Links&amp;rsquo; initialization.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Hope to take full advantage of this site to express and record my progress.&lt;/p&gt;
-&lt;p&gt;The building process refers to many others&amp;rsquo; instructions, including &lt;a class=&#34;link&#34; href=&#34;https://blog.reincarnatey.net/2023/build-hugo-blog-with-stack-mod/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;失迹の博客&lt;/a&gt;, &lt;a class=&#34;link&#34; href=&#34;https://lewky.cn/posts/hugo-3.html/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;雨临Lewis&lt;/a&gt;, &lt;a class=&#34;link&#34; href=&#34;https://www.sulvblog.cn/posts/blog/build_hugo/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Sulv&amp;rsquo;s Blog&lt;/a&gt;, &lt;a class=&#34;link&#34; href=&#34;https://www.yuweihung.com/posts/2021/hugo-blog-picture/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Cassius&amp;rsquo;s Blog&lt;/a&gt;, &lt;a class=&#34;link&#34; href=&#34;https://kyxie.github.io/zh/blog/tech/papermod/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Kyrie&lt;/a&gt;.&lt;br&gt;
-Thanks for them.&lt;/p&gt;
-</description>
-        </item>
-        
+        <language>en-us</language><atom:link href="https://niugens.com/categories/tech-internet/index.xml" rel="self" type="application/rss+xml" />
     </channel>
 </rss>
