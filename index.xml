@@ -1,1 +1,33 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Home on Geng Niu</title><link>https://niugens.com/</link><description>Recent content in Home on Geng Niu</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 19 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://niugens.com/index.xml" rel="self" type="application/rss+xml"/><item><title>About</title><link>https://niugens.com/about/</link><pubDate>Sun, 19 Jan 2025 00:00:00 +0000</pubDate><guid>https://niugens.com/about/</guid><description>Academic profile of Geng (Ben) Niu</description></item><item><title>3D Printed Lightweight EPS Concrete</title><link>https://niugens.com/p/3d-printed-eps-concrete-excess-paste-layer-theory/</link><pubDate>Wed, 06 Mar 2024 11:48:29 +0800</pubDate><guid>https://niugens.com/p/3d-printed-eps-concrete-excess-paste-layer-theory/</guid><description>A composite aggregate model connects excess paste thickness with the rheology and printability of lightweight EPS concrete.</description></item><item><title>X-ray Tomography Scanner User Guide</title><link>https://niugens.com/p/x-ray-tomography-scanner-user-guide/</link><pubDate>Mon, 16 May 2022 17:38:26 +0800</pubDate><guid>https://niugens.com/p/x-ray-tomography-scanner-user-guide/</guid><description>Computed tomography (CT) is an imaging procedure that uses special X-ray equipment to create detailed pictures, or scans, of areas inside the body.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Home on Geng Niu</title>
+    <link>https://gengniu.org/</link>
+    <description>Recent content in Home on Geng Niu</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 19 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://gengniu.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>https://gengniu.org/about/</link>
+      <pubDate>Sun, 19 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://gengniu.org/about/</guid>
+      <description>Academic profile of Geng (Ben) Niu</description>
+    </item>
+    <item>
+      <title>3D Printed Lightweight EPS Concrete</title>
+      <link>https://gengniu.org/p/3d-printed-eps-concrete-excess-paste-layer-theory/</link>
+      <pubDate>Wed, 06 Mar 2024 11:48:29 +0800</pubDate>
+      <guid>https://gengniu.org/p/3d-printed-eps-concrete-excess-paste-layer-theory/</guid>
+      <description>A composite aggregate model connects excess paste thickness with the rheology and printability of lightweight EPS concrete.</description>
+    </item>
+    <item>
+      <title>X-ray Tomography Scanner User Guide</title>
+      <link>https://gengniu.org/p/x-ray-tomography-scanner-user-guide/</link>
+      <pubDate>Mon, 16 May 2022 17:38:26 +0800</pubDate>
+      <guid>https://gengniu.org/p/x-ray-tomography-scanner-user-guide/</guid>
+      <description>Computed tomography (CT) is an imaging procedure that uses special X-ray equipment to create detailed pictures, or scans, of areas inside the body.</description>
+    </item>
+  </channel>
+</rss>
